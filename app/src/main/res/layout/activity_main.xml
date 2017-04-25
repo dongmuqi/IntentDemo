@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.seven.intentdemo.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+  <Button android:id="@+id/btn_explicit"
+      android:text="显式Intent" style="@style/buttonStyle"/>
+
+  <Button android:id="@+id/btn_recessive"
+      android:text="隐式Intent" style="@style/buttonStyle"/>
+
+  <Button android:id="@+id/btn_padding"
+      android:text="待定Intent" style="@style/buttonStyle"/>
+
+  <Button android:id="@+id/btn_data_base"
+      android:text="基本类型传出" style="@style/buttonStyle"/>
+
+  <Button android:id="@+id/btn_data_instance"
+      android:text="序列化数据传出" style="@style/buttonStyle"/>
+
+  <Button android:id="@+id/btn_data_back"
+      android:text="数据回传" style="@style/buttonStyle"/>
+
+</LinearLayout>
